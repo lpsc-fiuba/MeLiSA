@@ -73,7 +73,17 @@
 \dsquestionex{What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?}{ Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.}
 
 \dsanswer{
+   Each instance of the dataset consist: a customer review of a product published in the Mercado Libre web page, a sentiment rating corresponding to that review, the title of that review chosen by the reviewer, the country where the product was published and the category to which that product belong. The sentiment rating corresponding to a specific review is measured in number of stars, where one star means a very negative review, and five stars means a very positive review. There are five possible categories to where the product can belong: "Hogar / Casa", "Tecnología y electrónica / Tecnologia e electronica"
+   Salud, ropa y cuidado personal / Saúde, roupas e cuidado pessoal    133070
+   Arte y entretenimiento / Arte e Entretenimiento                      27475
+   Alimentos y Bebidas / Alimentos e Bebidas  An example instance is shown in figure \ref{fig:instance}. 
 }
+
+\begin{figure}
+   \centering
+   \caption{An example of a review instance.}
+   \label{fig:instance}
+\end{figure}
 
 \dsquestion{How many instances are there in total (of each type, if appropriate)?}
 
